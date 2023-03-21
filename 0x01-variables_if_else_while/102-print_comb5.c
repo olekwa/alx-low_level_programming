@@ -7,9 +7,9 @@ int main(void)
 {
 	short a, b;
 
-	for (a = 0; b <= 99; a++)
+	for (a = 0; b <= 100; a++)
 	{
-		for (b = 0; b <= 99; b++)
+		for (b = 0; b <= 100; b++)
 		{
 			if (a < b)
 			{
@@ -31,6 +31,6 @@ int main(void)
 			}
 		}
 	}
-	putchar('\0');
+	putchar('\n');
 	return (0);
 }
